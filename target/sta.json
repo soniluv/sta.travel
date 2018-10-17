@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 294196536,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on the tours page",
+            "match": {
+              "location": "TourStepDefs.user_is_on_the_tours_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9520113585,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User can successfully see all the tour results displayed",
+        "description": "",
+        "id": "tour;user-can-successfully-see-all-the-tour-results-displayed;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2695246424,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8573424794,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects destination \"India\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "India",
+                  "offset": 26
+                }
+              ],
+              "location": "TourStepDefs.user_selects_destination(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2853689682,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on \"Find a Tour\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Find a Tour",
+                  "offset": 10
+                }
+              ],
+              "location": "TourStepDefs.click_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34642022,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user could see the tour options displayed",
+            "match": {
+              "location": "TourStepDefs.user_could_see_the_tour_options_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3193703239,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user change the sort order on the search results to “Price (Low-High)\"",
+            "match": {
+              "location": "TourStepDefs.user_change_the_sort_order_on_the_search_results_to_Price_Low_High()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 249105243,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on \"View More\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "View More",
+                  "offset": 10
+                }
+              ],
+              "location": "TourStepDefs.click_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81077856,
+              "status": "passed"
+            },
+            "output": [
+              "Closing Scenario"
+            ],
+            "line": 16,
+            "name": "user could see more and all the results displayed",
+            "match": {
+              "location": "TourStepDefs.user_could_see_more_and_all_the_results_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Tour",
+    "description": "\r\nAs an end user\r\nI want to select the travel options\r\nSo That I can see all the results displayed",
+    "id": "tour",
+    "keyword": "Feature",
+    "uri": "Tour.feature"
+  }
+]
